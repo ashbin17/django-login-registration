@@ -1,0 +1,107 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% load static %}
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://gambolthemes.net/workwise-new/index.html -->
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>WorkWise Html Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" type="text/css" href="{% static 'user/animate.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'user/bootstrap.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'user/line-awesome.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'user/line-awesome-font-awesome.min.css' %}">
+<link href="{% static 'user/all.min.css" rel="stylesheet" type="text/css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'user/font-awesome.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'user/jquery.mCustomScrollbar.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'user/slick.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'user/slick-theme.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'user/style.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'user/responsive.css' %}">
+<script src="{% static 'user/jquery.mousewheel.min.js.download' %}"></script></head>
+<body oncontextmenu="return false;">
+<div class="wrapper">
+<header>
+<div class="container">
+<div class="header-data">
+<div class="">
+<a href="#" title=""><img src="{% static 'user/abc.png' %}" alt="" style="width:140px; height:40px; padding:5px; margin:7px; background-color: white;"></a>
+</div>
+
+<!-- navigation -->
+<nav>
+<ul>
+    <!--
+<li>
+<a href="#" title="">
+<span><img src="{% static 'user/icon1.png' %}" alt=""></span>
+Home
+</a>
+</li>
+
+
+
+<a href="#" title="">
+<span><img src="{% static 'user/icon3.png' %}" alt=""></span>
+Feeds
+</a>
+<ul>
+<li><a href="#">Following Feeds</a></li>
+<li><a href="#" title="">My Feeds</a></li>
+</ul>
+<li>
+<a href="#" title="">
+<span><img src="#" alt=""></span>
+Profiles
+</a>
+</li> -->
+</ul>
+</nav>
+
+<div class="menu-btn">
+<a href="#" title=""><i class="fa fa-bars"></i></a>
+</div>
+
+<div class="user-account" style="width: auto;">
+<div class="user-info">
+    <a href="#" class="sort-down form-inline">{%if user.img %}<img src="{{user.img.url}}" alt="" style="width: 40px; height:40px;">{% endif %} {{user.first_name}}&nbsp;{{user.last_name}}</a>
+</div>
+<div class="user-account-settingss" id="users">
+
+<h3 class="tc"><a href="{% url 'myapp:logout' %}" title="">Logout</a></h3>
+</div>
+</div>
+</div>
+</div>
+</header>
+</div>
+    <!-- End navigation -->
+<div class="text-center">
+
+    Hai Welcome {{user.first_name}}&nbsp;{{user.last_name}}
+</div>
+
+<script type="text/javascript" src="{% static 'user/jquery.min.js.download' %}"></script>
+<script type="text/javascript" src="{% static 'user/popper.js.download' %}"></script>
+<script type="text/javascript" src="{% static 'user/bootstrap.min.js.download' %}"></script>
+<script type="text/javascript" src="{% static 'user/jquery.mCustomScrollbar.js.download' %}"></script>
+<script type="text/javascript" src="{% static 'user/slick.min.js.download' %}"></script>
+<script type="text/javascript" src="{% static 'user/scrollbar.js.download' %}"></script>
+<script type="text/javascript" src="{% static 'user/script.js.download' %}"></script>
+
+</body>
+</html>
+
+</body>
+</html>
